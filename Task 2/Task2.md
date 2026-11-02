@@ -11,24 +11,9 @@ SELECT
 FROM Employees AS e
 LEFT JOIN Orders AS o
     ON e.EmployeeID = o.EmployeeID
-GROUP BY e.FirstName;```
+GROUP BY e.FirstName;
 ```
 This query lists each employee's first name and how many orders they have placed.
 
-- SELECT e.FirstName, COUNT(o.OrderID) AS NumberOfOrders
-  Returns the employee's first name and counts their orders. The count column
-  is named NumberOfOrders.
-
-- FROM Employees AS e
-  Starts with the Employees table and gives it the short name "e".
-
-- LEFT JOIN Orders AS o ON e.EmployeeID = o.EmployeeID
-  Connects each employee to their orders by matching EmployeeID in both tables.
-  A LEFT JOIN keeps every employee, even one with no orders. That employee
-  would show a count of 0.
-
-- GROUP BY e.FirstName
-  Puts all the orders for each first name into one group, so COUNT gives
-  one total per employee.```
 
 4. For submission commit and push this .md file to Github
