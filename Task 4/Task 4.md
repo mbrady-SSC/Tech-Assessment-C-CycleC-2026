@@ -4,7 +4,7 @@ Hand-draw the ERD and take a clear photo.
 OR use a digital tool (e.g., Figma, Canva, draw.io) and take a screenshot.
 
 2. Save the image and place it in your “Task 4” folder.
-
+![alt text](<Screenshot 2026-11-02 131847.png>)
 3. SQL Schema (reference Northwind Database; same database used in Geek Week)
 Write CREATE TABLE statements for at least three entities, including:
 Primary keys (PK)
